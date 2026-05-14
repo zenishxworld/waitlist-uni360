@@ -2,14 +2,14 @@
 
 /* ───────── Design Tokens ───────── */
 :root {
-  --bg: #04050d;
+  --bg: #1e2428; /* Dark Gunmetal */
   --surface: rgba(255, 255, 255, 0.04);
   --border: rgba(255, 255, 255, 0.08);
-  --glow-primary: #6c63ff;
-  --glow-secondary: #a78bfa;
-  --accent: #c7b8ff;
-  --text: #f0edff;
-  --muted: rgba(255, 255, 255, 0.45);
+  --glow-primary: #e08d3c; /* Tiger's Eye */
+  --glow-secondary: #c4dff0; /* Light Blue */
+  --accent: #e08d3c;
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.65);
 }
 
 @theme inline {
@@ -74,10 +74,10 @@
 @keyframes glow-pulse {
   0%,
   100% {
-    box-shadow: 0 0 20px 4px rgba(108, 99, 255, 0.15);
+    box-shadow: 0 0 20px 4px rgba(224, 141, 60, 0.15); /* Tiger's Eye */
   }
   50% {
-    box-shadow: 0 0 40px 8px rgba(108, 99, 255, 0.35);
+    box-shadow: 0 0 40px 8px rgba(224, 141, 60, 0.35);
   }
 }
 
@@ -170,13 +170,14 @@ body {
 
 /* ───────── Input Glow ───────── */
 .input-glow:focus-within {
-  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.25),
-    0 0 20px 2px rgba(108, 99, 255, 0.1);
+  box-shadow: 0 0 0 2px rgba(224, 141, 60, 0.25),
+    0 0 20px 2px rgba(224, 141, 60, 0.1);
 }
 
 /* ───────── Gradient Button ───────── */
 .btn-gradient {
-  background: linear-gradient(135deg, #6c63ff 0%, #a78bfa 100%);
+  background: linear-gradient(135deg, #e08d3c 0%, #c4dff0 100%);
+  color: #1e2428;
   position: relative;
   overflow: hidden;
 }
@@ -236,6 +237,6 @@ body {
 }
 
 .feature-pill:hover {
-  background: rgba(108, 99, 255, 0.12);
-  border-color: rgba(108, 99, 255, 0.3);
+  background: rgba(224, 141, 60, 0.12);
+  border-color: rgba(224, 141, 60, 0.3);
 }

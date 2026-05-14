@@ -52,7 +52,7 @@ export default function Loader({ onComplete }: LoaderProps) {
   return (
     <motion.div
       className="fixed inset-0 z-50 flex items-center justify-center"
-      style={{ background: "#04050d" }}
+      style={{ background: "#1e2428" }}
       initial={{ opacity: 1 }}
       animate={phase === "exit" ? { opacity: 0 } : { opacity: 1 }}
       transition={{ duration: 0.6, delay: 0 }}
@@ -68,9 +68,9 @@ export default function Loader({ onComplete }: LoaderProps) {
           phase === "hold" || phase === "breathe"
             ? {
                 boxShadow: [
-                  "0 0 30px 8px rgba(108,99,255,0.0)",
-                  "0 0 60px 20px rgba(108,99,255,0.25)",
-                  "0 0 30px 8px rgba(108,99,255,0.0)",
+                  "0 0 30px 8px rgba(224, 141, 60, 0.0)",
+                  "0 0 60px 20px rgba(224, 141, 60, 0.25)",
+                  "0 0 30px 8px rgba(224, 141, 60, 0.0)",
                 ],
               }
             : {}

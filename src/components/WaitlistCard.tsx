@@ -42,7 +42,7 @@ export default function WaitlistCard() {
         className="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-32 rounded-full pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse, rgba(108,99,255,0.15), transparent 70%)",
+            "radial-gradient(ellipse, rgba(224, 141, 60, 0.15), transparent 70%)",
         }}
       />
 
@@ -87,7 +87,7 @@ export default function WaitlistCard() {
                   fontFamily: "var(--font-secondary), sans-serif",
                 }}
                 onFocus={(e) => {
-                  e.target.style.borderColor = "rgba(108,99,255,0.6)";
+                  e.target.style.borderColor = "rgba(224, 141, 60, 0.6)";
                 }}
                 onBlur={(e) => {
                   e.target.style.borderColor = "rgba(255,255,255,0.1)";
@@ -114,7 +114,7 @@ export default function WaitlistCard() {
                   fontFamily: "var(--font-secondary), sans-serif",
                 }}
                 onFocus={(e) => {
-                  e.target.style.borderColor = "rgba(108,99,255,0.6)";
+                  e.target.style.borderColor = "rgba(224, 141, 60, 0.6)";
                 }}
                 onBlur={(e) => {
                   e.target.style.borderColor = "rgba(255,255,255,0.1)";
@@ -188,8 +188,8 @@ export default function WaitlistCard() {
               className="w-16 h-16 rounded-full flex items-center justify-center"
               style={{
                 background:
-                  "linear-gradient(135deg, rgba(108,99,255,0.2), rgba(167,139,250,0.2))",
-                border: "1px solid rgba(108,99,255,0.3)",
+                  "linear-gradient(135deg, rgba(224, 141, 60, 0.2), rgba(196, 223, 240, 0.2))",
+                border: "1px solid rgba(224, 141, 60, 0.3)",
               }}
             >
               <svg
@@ -197,7 +197,7 @@ export default function WaitlistCard() {
                 height="28"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#a78bfa"
+                stroke="#e08d3c"
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"

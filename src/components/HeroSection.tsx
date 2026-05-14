@@ -17,10 +17,10 @@ const fadeUp = {
 };
 
 const features = [
-  "Germany",
-  "United Kingdom",
-  "Visa Support",
-  "Scholarships",
+  "Germany & UK",
+  "100+ Partner Institutions",
+  "200+ Programs",
+  "Chancenkarte",
 ];
 
 export default function HeroSection() {
@@ -39,15 +39,15 @@ export default function HeroSection() {
             variants={fadeUp}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium tracking-wide"
             style={{
-              background: "rgba(108,99,255,0.1)",
-              border: "1px solid rgba(108,99,255,0.2)",
+              background: "rgba(224, 141, 60, 0.1)",
+              border: "1px solid rgba(224, 141, 60, 0.2)",
               color: "var(--accent)",
             }}
           >
             <span
               className="w-2 h-2 rounded-full inline-block"
               style={{
-                background: "#6c63ff",
+                background: "#e08d3c",
                 animation: "dot-pulse 2s ease-in-out infinite",
               }}
             />
@@ -70,13 +70,13 @@ export default function HeroSection() {
               className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-bold leading-[1.1] tracking-tight"
               style={{
                 background:
-                  "linear-gradient(135deg, #6c63ff 0%, #a78bfa 50%, #c7b8ff 100%)",
+                  "linear-gradient(135deg, #e08d3c 0%, #c4dff0 50%, #ffffff 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
               }}
             >
-              Without Limits.
+              360° Journey.
             </motion.h1>
           </div>
 
@@ -87,8 +87,7 @@ export default function HeroSection() {
             className="text-base md:text-lg max-w-sm"
             style={{ color: "var(--muted)", lineHeight: 1.7 }}
           >
-            Germany. UK. Full support from day one — visa, applications,
-            scholarships & beyond.
+            Discover world-class universities and find the perfect match for your academic goals. Full support from application to relocation.
           </motion.p>
 
           {/* Feature pills */}
